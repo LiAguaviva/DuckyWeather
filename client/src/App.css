@@ -6,7 +6,6 @@
   --mid1: #efeb1d;
   --mid2: #667518;
   --dark: #273225;
-  --other: #b6ccaa;
 }
 
 * {
@@ -29,7 +28,7 @@ body {
 }
 
 p, label {
-  text-shadow: 0 3px 3px #000000c7;
+  text-shadow: 0 1px 1px #000000c7;
 }
 
 h1 {
@@ -45,27 +44,9 @@ h1 {
   border-radius: 5px;
 }
 
-button {
-  width: max-content;
-  border-radius: 10px;
-  border: none;
-  padding: 0.5rem;
-  background-color: var(--mid1);
-  margin-top: 1rem;
-  color: var(--dark);
-  box-shadow: 1px 1px 10px 1px rgba(55, 76, 0, 0.471);
-
-  &:hover {
-    background-color: var(--light);
-    color: var(--mid2);
-  }
-}
-
 a {
   text-decoration: none;
 }
-
-
 
 .infoSection  {
   h2 {

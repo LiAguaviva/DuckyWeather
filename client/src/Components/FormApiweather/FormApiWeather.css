@@ -5,13 +5,25 @@
   gap: 1rem;
   margin-inline: auto;
 
-  .labelForm {
-    text-shadow: 0 2px 2px #1d3106;
-  }
-
   input {
     width: max-content;
     padding: 0.3rem;
+  }
+
+  button {
+    width: max-content;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+    background-color: var(--mid1);
+    margin-top: 1rem;
+    color: var(--dark);
+    box-shadow: 1px 1px 10px 1px rgba(55, 76, 0, 0.471);
+  
+    &:hover {
+      background-color: #82ca9d;
+
+    }
   }
 
 } 
