@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  --light: #e8ede2;
+  --mid1: #efeb1d;
+  --mid2: #667518;
+  --dark: #273225;
+  --other: #b6ccaa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(./assets/apiWeatherIMG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  color: var(--light);
+  text-wrap: pretty;
+
+  min-height: 100vh;
+  place-items: center;
+  align-content: center;
+}
+
+p, label {
+  text-shadow: 0 3px 3px #000000c7;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0 5px 5px #000000c3;
+  text-align: center;
+}
+
+.ApiWeatherCont {
+  display: flex;
+  flex-direction: column;
+  padding-inline:10%;
+  border-radius: 5px;
+}
+
+button {
+  width: max-content;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+  background-color: var(--mid1);
+  margin-top: 1rem;
+  color: var(--dark);
+  box-shadow: 1px 1px 10px 1px rgba(55, 76, 0, 0.471);
+
+  &:hover {
+    background-color: var(--light);
+    color: var(--mid2);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.infoSection  {
+  h2 {
+    font-size: 2.1rem;
+  }
+ 
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.graph {
+  margin: 3rem;
+  padding: 2rem;
+}

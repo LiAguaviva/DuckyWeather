@@ -1,0 +1,17 @@
+.formApiWeather {
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-inline: auto;
+
+  .labelForm {
+    text-shadow: 0 2px 2px #1d3106;
+  }
+
+  input {
+    width: max-content;
+    padding: 0.3rem;
+  }
+
+} 
