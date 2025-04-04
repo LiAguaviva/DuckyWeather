@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación en React que permite visualizar previsiones meteorológicas utilizando la API de OpenWeather.
 
+![Ducky Weather Home](Screenshots/DuckyWeather_1.JPG)
+![Ducky Weather Weather Forecast](Screenshots/DuckyWeather_2.JPG)
+
 ## Instalación y puesta en marcha
 
 1. Abre la terminal en la carpeta del proyecto.
