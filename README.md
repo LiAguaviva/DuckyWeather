@@ -1,95 +1,111 @@
-# Proyecto de Previsión del Tiempo con React y OpenWeather 
+# 🌦️ Ducky Weather — Your Cute Forecast Friend! 🐤
 
-Este proyecto es una aplicación en React que permite visualizar previsiones meteorológicas utilizando la API de OpenWeather.
+A weather forecast app built with **React** and the **OpenWeather API**.  
+See if it’s a ☀️ sunny day or a ☔ puddle-jumping adventure!
 
 ![Ducky Weather Home](Screenshots/DuckyWeather_1.JPG)
-![Ducky Weather Weather Forecast](Screenshots/DuckyWeather_2.JPG)
+![Ducky Weather Forecast](Screenshots/DuckyWeather_2.JPG)
 
-## Instalación y puesta en marcha
+---
 
-1. Abre la terminal en la carpeta del proyecto.
-2. Accede a la carpeta `client` con el siguiente comando:
-   ```
+## 🚀 How to Get Started
+
+1. Open your terminal in the root of the project 🖥️
+2. Go to the `client` folder:
+   ```bash
    cd client
    ```
-3. Instala las dependencias necesarias ejecutando:
-   ```
+3. Install all the good stuff:
+   ```bash
    npm install
    ```
-4. Inicia el proyecto con:
-   ```
+4. Run the app:
+   ```bash
    npm run dev
    ```
+5. Head to 👉 [http://localhost:5173/](http://localhost:5173/) and enjoy the weather!
 
-## Obtención de la API Key de OpenWeather
-Para obtener una API Key y poder realizar peticiones a OpenWeather, sigue estos pasos:
+---
 
-1. Visita la página de OpenWeather: [https://openweathermap.org/api](https://openweathermap.org/api)
-2. Selecciona "Subscribe" en la opción **5 Day / 3 Hour Forecast**.
-3. Desplázate hasta encontrar "Free Access, Current weather and forecasts" y haz clic en **Get API Key**.
-4. Regístrate en la plataforma y espera a recibir la API Key en tu correo electrónico.
-5. En el email, encontrarás la API Key junto con un ejemplo de llamada a la API.
+## 🔑 Get Your OpenWeather API Key
 
-## Configuración del archivo .env
+You’ll need an API key to make it rain (data). Here’s how:
 
-1. Dentro de la carpeta `client` del proyecto, crea un archivo `.env`.
-2. Agrega las siguientes variables de entorno:
-   ```
-   # API de OpenWeather
-   VITE_API_WEATHER_KEY=TU_API_KEY_AQUÍ
-   VITE_API_WEATHER_URL=https://URL_BASE_DE_LA_API
-   ```
+1. Go to [https://openweathermap.org/api](https://openweathermap.org/api)
+2. Click **Subscribe** under "5 Day / 3 Hour Forecast"
+3. Find **Free Access, Current weather and forecasts** and hit **Get API Key**
+4. Sign up and check your email for the magic key ✨
+5. Use that key in the next step!
 
-## Ejecutar la aplicación
+---
 
-Abre tu navegador y accede a la siguiente dirección:
-[http://localhost:5173/](http://localhost:5173/)
+## 🛠️ .env Setup Time!
 
+Inside the `client` folder, create a `.env` file and add this:
 
-# ##############################################################################################
+```env
+# OpenWeather API config
+VITE_API_WEATHER_KEY=YOUR_API_KEY_HERE
+VITE_API_WEATHER_URL=https://YOUR_BASE_URL_HERE
+```
 
+Now you’re ready to forecast like a pro. ☁️💨
 
-# Weather Forecast Project with React and OpenWeather
+---
 
-This project is a React application that displays weather forecasts using the OpenWeather API.
+# 🇪🇸 Ducky Weather — ¡Tu amiguito del tiempo! 🐤
 
-## Installation and Setup
+Una app del tiempo hecha con **React** y la API de **OpenWeather**.  
+Descubre si el día viene soleado ☀️ o toca sacar el paraguas ☔.
 
-1. Open the terminal in the project folder.
-2. Navigate to the `client` folder:
-   ```
+![Ducky Weather Home](Screenshots/DuckyWeather_1.JPG)
+![Ducky Weather Forecast](Screenshots/DuckyWeather_2.JPG)
+
+---
+
+## 🚀 Cómo empezar
+
+1. Abre la terminal en la raíz del proyecto 🖥️
+2. Entra en la carpeta `client`:
+   ```bash
    cd client
    ```
-3. Install the required dependencies:
-   ```
+3. Instala las dependencias:
+   ```bash
    npm install
    ```
-4. Start the project:
-   ```
+4. Lanza el proyecto:
+   ```bash
    npm run dev
    ```
+5. Ve a 👉 [http://localhost:5173/](http://localhost:5173/) y ¡disfruta del tiempo!
 
-## Getting an OpenWeather API Key
-To make API requests, you need an API Key. Follow these steps:
+---
 
-1. Visit OpenWeather's website: [https://openweathermap.org/api](https://openweathermap.org/api)
-2. Click "Subscribe" under the **5 Day / 3 Hour Forecast** option.
-3. Scroll down to "Free Access, Current weather and forecasts" and click **Get API Key**.
-4. Create an account and wait for the API Key to arrive via email.
-5. In the email, you'll find your API Key along with an example API request.
+## 🔑 Consigue tu API Key de OpenWeather
 
-## Setting up the .env File
+Sigue estos pasos para poder hacer consultas a la API:
 
-1. Inside the project's `client` folder, create a `.env` file.
-2. Add the following environment variables:
-   ```
-   # OpenWeather API
-   VITE_API_WEATHER_KEY=YOUR_API_KEY_HERE
-   VITE_API_WEATHER_URL=https://BASE_API_URL
-   ```
+1. Visita: [https://openweathermap.org/api](https://openweathermap.org/api)
+2. Pulsa **Subscribe** en "5 Day / 3 Hour Forecast"
+3. Busca **Free Access, Current weather and forecasts** y dale a **Get API Key**
+4. Regístrate y recibirás tu clave por correo ✨
+5. ¡Lista para usarla en el paso siguiente!
 
-## Running the Application
+---
 
-Open your browser and go to:
-[http://localhost:5173/](http://localhost:5173/)
+## 🛠️ Configura tu archivo .env
 
+Dentro de la carpeta `client`, crea un archivo `.env` y añade:
+
+```env
+# Configuración de la API de OpenWeather
+VITE_API_WEATHER_KEY=TU_API_KEY_AQUÍ
+VITE_API_WEATHER_URL=https://TU_URL_BASE
+```
+
+¡Y listo! Ya puedes consultar el tiempo como una estrella del canal meteo 🌈📺
+
+---
+
+Happy coding! 💻✨ / ¡Feliz programación! 🧠🎉
